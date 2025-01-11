@@ -1,0 +1,9 @@
+1 Create table Job_History1 like the job_history table of HR user. Insert records into Job_History1 for jobs
+with an end date of '19-DEC-07' from hr.Job_History.
+2 Insert 5 rows in the Job_History1 table and delete records from Job_History1 where the job_id is 
+AC_ACCOUNT.
+3 Delete records from Job_History for departments with the name 'IT'.
+4 Create a replica of employees table and increase the salary of employees by 12% who have a salary
+between $5,000 and $10,000.
+5 Insert into employees_BKP as it should copy the record of the employee whose hire date is ’10-MAR-
+03’ from employees table.
