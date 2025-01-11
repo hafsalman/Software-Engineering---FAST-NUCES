@@ -39,3 +39,14 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Construction%20and%20Development">Software Construction and Development</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Quality%20Engineering">Software Quality Engineering</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Technical%20Business%20Writing/Slides">Technical Business Writing</a></p>
+
+<h2>Accepting Contributions</h2>
+<p>If you would like to contribute to this repository by adding course materials, please follow these steps:</p>
+<p>Fork this repository to your account.</p>
+<p>Clone the forked repository to your local machine.</p>
+<p>Create a new branch for your changes: git checkout -b your-branch-name.</p>
+<p>Add your course materials to the appropriate semester folder.</p>
+<p>Commit your changes: git commit -m "XYZ Semester"</p>
+<p>Push your changes to your forked repository: git push origin your-branch-name</p>
+<p>Create a pull request from your forked repository to this repository.</p>
+<p>Wait for your pull request to be reviewed and merged.</p>
