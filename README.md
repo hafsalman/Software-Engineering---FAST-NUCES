@@ -16,3 +16,9 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/2nd%20Semester/Object%20Oriented%20Programming">Object Oriented Programming</a></p>
 
 <h3>3. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester">3rd Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Data%20Structures%20and%20Algorithms%20Labs">Data Structures and Algorithms Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Data%20Structures%20and%20Algorithms">Data Structures and Algorithms</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Fundamentals%20of%20Accountings%20(Elective)">Fundamental of Accountings</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Human%20Computer%20Interaction">Human Computer Interaction</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Linear%20Algebra">Linear Algebra</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Software%20Requirements%20Engineering">Software Requirements Engineering</a></p>
