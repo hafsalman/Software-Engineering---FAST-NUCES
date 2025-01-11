@@ -22,3 +22,13 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Human%20Computer%20Interaction">Human Computer Interaction</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Linear%20Algebra">Linear Algebra</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/3rd%20Semester/Software%20Requirements%20Engineering">Software Requirements Engineering</a></p>
+
+<h3>4. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester">4th Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Operating%20Systems%20Lab">Operating Systems Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Operating%20Systems">Operating Systems</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Probability%20and%20Statistics">Probability and Statistics</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Pshycology">Psychology</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Software%20Design%20and%20Architecture%20Lab">Software Design and Architecture Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Software%20Design%20and%20Architecture">Software Design and Architecture</a></p>
+
+<h3>5. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester">5th Semester</a></h3>
