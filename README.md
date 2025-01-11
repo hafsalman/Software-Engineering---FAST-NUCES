@@ -32,3 +32,10 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/4th%20Semester/Software%20Design%20and%20Architecture">Software Design and Architecture</a></p>
 
 <h3>5. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester">5th Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Database%20Systems%20Lab">Database Systems Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Database%20Systems">Database Systems</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Design%20and%20Analysis%20of%20Algorithms">Design and Analysis of Algorithms</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Construction%20and%20Development%20Lab">Software Construction and Development Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Construction%20and%20Development">Software Construction and Development</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Quality%20Engineering">Software Quality Engineering</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Technical%20Business%20Writing/Slides">Technical Business Writing</a></p>
