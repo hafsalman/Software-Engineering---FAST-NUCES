@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item key="CopyToImageDialog.folder" value="C:\Users\STMINC\Desktop"/>
+		<item key="CopyToImageDialog.imageFormat" value="png"/>
+		<item key="CopyToImageDialog.overwriteExisting" value="false"/>
+		<item key="CopyToImageDialog.exportToHTML" value="false"/>
+	</section>
+</section>

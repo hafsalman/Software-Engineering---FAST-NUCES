@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2r5ewArxEe-nFNuAjPovwg" name="SDA_10">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2y10QArxEe-nFNuAjPovwg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_CbdA4AsYEe-eBfMiU6IH6Q" name="Task_01">
+    <packagedElement xmi:type="uml:Component" xmi:id="_EMlnUAsYEe-eBfMiU6IH6Q" name="BookingTerminal">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZhiTYAtfEe-A4ZBLJpFsWg" client="_EMlnUAsYEe-eBfMiU6IH6Q" supplier="_XuzxgAtfEe-A4ZBLJpFsWg" contract="_XuzxgAtfEe-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_MjckkAsYEe-eBfMiU6IH6Q" name="MessageQueue">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_wR8BUAsYEe-eBfMiU6IH6Q" client="_MjckkAsYEe-eBfMiU6IH6Q" supplier="_qfrHwAsYEe-eBfMiU6IH6Q" contract="_qfrHwAsYEe-eBfMiU6IH6Q"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kcPGYAtfEe-A4ZBLJpFsWg" client="_MjckkAsYEe-eBfMiU6IH6Q" supplier="_XuzxgAtfEe-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qfrHwAsYEe-eBfMiU6IH6Q" name="iBookingMessage"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_26MHsAsYEe-eBfMiU6IH6Q" name="BookingServer">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_PVwesAsZEe-eBfMiU6IH6Q" name="Bookings" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_fI_UoAseEe-eBfMiU6IH6Q" name="">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fJBw4AseEe-eBfMiU6IH6Q" role="_YrynsAseEe-eBfMiU6IH6Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fJBw4QseEe-eBfMiU6IH6Q" role="_buyeoAseEe-eBfMiU6IH6Q"/>
+      </ownedConnector>
+      <packagedElement xmi:type="uml:Component" xmi:id="_6qg-sAsYEe-eBfMiU6IH6Q" name="BookingProcessor">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_YrynsAseEe-eBfMiU6IH6Q" name="" aggregation="composite"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Caf_AAtiEe-A4ZBLJpFsWg" client="_6qg-sAsYEe-eBfMiU6IH6Q" supplier="_-j450AthEe-A4ZBLJpFsWg" contract="_-j450AthEe-A4ZBLJpFsWg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_FNz-UAsZEe-eBfMiU6IH6Q" name="DatabaseConnector">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_buyeoAseEe-eBfMiU6IH6Q" name="Port1" aggregation="composite"/>
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RXc78AthEe-A4ZBLJpFsWg" client="_FNz-UAsZEe-eBfMiU6IH6Q" supplier="_AuEH0AthEe-A4ZBLJpFsWg" contract="_AuEH0AthEe-A4ZBLJpFsWg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hliB0AsZEe-eBfMiU6IH6Q" client="_PVwesAsZEe-eBfMiU6IH6Q" supplier="_qfrHwAsYEe-eBfMiU6IH6Q"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_GHzE4AsaEe-eBfMiU6IH6Q" client="_PVwesAsZEe-eBfMiU6IH6Q" supplier="_6qg-sAsYEe-eBfMiU6IH6Q"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XuzxgAtfEe-A4ZBLJpFsWg" name="Booking"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_xWG70AtfEe-A4ZBLJpFsWg" name="BookingDatabase">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QjHU8AthEe-A4ZBLJpFsWg" client="_xWG70AtfEe-A4ZBLJpFsWg" supplier="_AuEH0AthEe-A4ZBLJpFsWg" contract="_AuEH0AthEe-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_AuEH0AthEe-A4ZBLJpFsWg" name="Booking"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_tDrLYAthEe-A4ZBLJpFsWg" name="AccountingSystem">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5_MmoAthEe-A4ZBLJpFsWg" client="_tDrLYAthEe-A4ZBLJpFsWg" supplier="_0ZpTYAthEe-A4ZBLJpFsWg" contract="_0ZpTYAthEe-A4ZBLJpFsWg"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_A2ZvAAtiEe-A4ZBLJpFsWg" client="_tDrLYAthEe-A4ZBLJpFsWg" supplier="_-j450AthEe-A4ZBLJpFsWg" contract="_-j450AthEe-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_0ZpTYAthEe-A4ZBLJpFsWg" name="BillingInformation"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_2W64YAthEe-A4ZBLJpFsWg" name="AccountingDriver">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_7Bd78AthEe-A4ZBLJpFsWg" client="_2W64YAthEe-A4ZBLJpFsWg" supplier="_0ZpTYAthEe-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-j450AthEe-A4ZBLJpFsWg" name="BillingInformation"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XMNTYAtiEe-A4ZBLJpFsWg" name="Task_02">
+    <packagedElement xmi:type="uml:Component" xmi:id="_A_xYsAuqEe-ROfQcWf1B_Q" name="BillingSystem">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_E6fh0AuqEe-ROfQcWf1B_Q" client="_A_xYsAuqEe-ROfQcWf1B_Q" supplier="_CsjqoAuqEe-ROfQcWf1B_Q" contract="_CsjqoAuqEe-ROfQcWf1B_Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JA0eAAuqEe-ROfQcWf1B_Q" client="_A_xYsAuqEe-ROfQcWf1B_Q" supplier="_HAasgAuqEe-ROfQcWf1B_Q" contract="_HAasgAuqEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_CsjqoAuqEe-ROfQcWf1B_Q" name="ManageSubcription"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_HAasgAuqEe-ROfQcWf1B_Q" name="ManagePayment"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_M7YPEAuqEe-ROfQcWf1B_Q" name="UserAccounts">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_4wc_IAuvEe-ROfQcWf1B_Q" name="Port4" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="__lMpYAuvEe-ROfQcWf1B_Q" name="Connector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="__lMpYQuvEe-ROfQcWf1B_Q" role="_4wc_IAuvEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="__lMpYguvEe-ROfQcWf1B_Q" role="_8tBiYAuvEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_sRdkUAuuEe-ROfQcWf1B_Q" client="_M7YPEAuqEe-ROfQcWf1B_Q" supplier="_CsjqoAuqEe-ROfQcWf1B_Q" contract="_CsjqoAuqEe-ROfQcWf1B_Q"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_kINlQAuuEe-ROfQcWf1B_Q" name="UA">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_A7BM0AuwEe-ROfQcWf1B_Q" client="_kINlQAuuEe-ROfQcWf1B_Q" supplier="_1RN4IAuvEe-ROfQcWf1B_Q" contract="_1RN4IAuvEe-ROfQcWf1B_Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_oJBIQAuuEe-ROfQcWf1B_Q" name="USM">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_8tBiYAuvEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_s9rG4AuqEe-ROfQcWf1B_Q" name="ContentDelivery">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_EEkxAAurEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_PJlEoAutEe-ROfQcWf1B_Q" name="Port7" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_jmkGMAutEe-ROfQcWf1B_Q" name="Port11" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_PhwmAAurEe-ROfQcWf1B_Q" name="Connector4">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_PhwmAQurEe-ROfQcWf1B_Q" role="_EEkxAAurEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_PhwmAgurEe-ROfQcWf1B_Q" role="_OTrCQAurEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_V4hB0AutEe-ROfQcWf1B_Q" name="Connector8">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_V4ho4AutEe-ROfQcWf1B_Q" role="_PJlEoAutEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_V4ho4QutEe-ROfQcWf1B_Q" role="_FcJ9EAutEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_nyX_UAutEe-ROfQcWf1B_Q" name="Connector12">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_nyX_UQutEe-ROfQcWf1B_Q" role="_lpZgoAutEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_nyYmYAutEe-ROfQcWf1B_Q" role="_jmkGMAutEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KwblAAurEe-ROfQcWf1B_Q" client="_s9rG4AuqEe-ROfQcWf1B_Q" supplier="_-fR8cAuqEe-ROfQcWf1B_Q" contract="_-fR8cAuqEe-ROfQcWf1B_Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__0ei4AusEe-ROfQcWf1B_Q" client="_s9rG4AuqEe-ROfQcWf1B_Q" supplier="_cKNUQAurEe-ROfQcWf1B_Q" contract="_cKNUQAurEe-ROfQcWf1B_Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gQ-DYAutEe-ROfQcWf1B_Q" client="_s9rG4AuqEe-ROfQcWf1B_Q" supplier="_dWQlwAutEe-ROfQcWf1B_Q" contract="_dWQlwAutEe-ROfQcWf1B_Q"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_G_K54AurEe-ROfQcWf1B_Q" name="VideoSearchEngine">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_OTrCQAurEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_-RgUQAusEe-ROfQcWf1B_Q" name="VideoPlayer">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_FcJ9EAutEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_bhOWwAutEe-ROfQcWf1B_Q" name="CRE">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_lpZgoAutEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_8SbqYAuqEe-ROfQcWf1B_Q" name="ContentCatalog">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ARI7oAurEe-ROfQcWf1B_Q" client="_8SbqYAuqEe-ROfQcWf1B_Q" supplier="_-fR8cAuqEe-ROfQcWf1B_Q" contract="_-fR8cAuqEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-fR8cAuqEe-ROfQcWf1B_Q" name="ContentSearch"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ZeR5gAurEe-ROfQcWf1B_Q" name="PlaybackManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_eHrtkAurEe-ROfQcWf1B_Q" client="_ZeR5gAurEe-ROfQcWf1B_Q" supplier="_cKNUQAurEe-ROfQcWf1B_Q" contract="_cKNUQAurEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_cKNUQAurEe-ROfQcWf1B_Q" name="ManagePlayback"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_dWQlwAutEe-ROfQcWf1B_Q" name="Recommendation"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_1RN4IAuvEe-ROfQcWf1B_Q" name="ManageProfile"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_QpklcAtlEe-A4ZBLJpFsWg" name="Task_03">
+    <packagedElement xmi:type="uml:Component" xmi:id="_Qa0iUAtmEe-A4ZBLJpFsWg" name="BankingApplication">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_HtFM8AukEe-ROfQcWf1B_Q" name="Port4" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_oMuSoAulEe-ROfQcWf1B_Q" name="Port7" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_8rC7gAumEe-ROfQcWf1B_Q" name="Port11" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_LaQpUAukEe-ROfQcWf1B_Q" name="Connector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_LaRQYAukEe-ROfQcWf1B_Q" role="_HtFM8AukEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_LaR3cAukEe-ROfQcWf1B_Q" role="_KEkowAukEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_trPJwAulEe-ROfQcWf1B_Q" name="Connector8">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_trPw0AulEe-ROfQcWf1B_Q" role="_oMuSoAulEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_trPw0QulEe-ROfQcWf1B_Q" role="_sUQIsAulEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_-xu7MAumEe-ROfQcWf1B_Q" name="Connector12">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-xviQAumEe-ROfQcWf1B_Q" role="_iNgFsAumEe-ROfQcWf1B_Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-xviQQumEe-ROfQcWf1B_Q" role="_8rC7gAumEe-ROfQcWf1B_Q"/>
+      </ownedConnector>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bhLmYAugEe-ROfQcWf1B_Q" client="_Qa0iUAtmEe-A4ZBLJpFsWg" supplier="_Y2xOkAugEe-ROfQcWf1B_Q" contract="_Y2xOkAugEe-ROfQcWf1B_Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_EYblUAukEe-ROfQcWf1B_Q" client="_Qa0iUAtmEe-A4ZBLJpFsWg" supplier="_BV3MMAukEe-ROfQcWf1B_Q" contract="_BV3MMAukEe-ROfQcWf1B_Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_yyds0AumEe-ROfQcWf1B_Q" client="_Qa0iUAtmEe-A4ZBLJpFsWg" supplier="_qYcG0AumEe-ROfQcWf1B_Q" contract="_qYcG0AumEe-ROfQcWf1B_Q"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_-5TVEAuhEe-ROfQcWf1B_Q" name="Transaction">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_KEkowAukEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_sS-LwAukEe-ROfQcWf1B_Q" name="UserAuthentication">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_sUQIsAulEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_gZEToAumEe-ROfQcWf1B_Q" name="AccountSummary">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_iNgFsAumEe-ROfQcWf1B_Q" name="Port1" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Y2xOkAugEe-ROfQcWf1B_Q" name="BankingOperations"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_BV3MMAukEe-ROfQcWf1B_Q" name="TransactionManager"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_mKQhEAukEe-ROfQcWf1B_Q" name="TransactionHandler">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_pZ5F0AukEe-ROfQcWf1B_Q" client="_mKQhEAukEe-ROfQcWf1B_Q" supplier="_BV3MMAukEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_Z_ZRQAulEe-ROfQcWf1B_Q" name="AutheticationServer">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hnm_0AulEe-ROfQcWf1B_Q" client="_Z_ZRQAulEe-ROfQcWf1B_Q" supplier="_coOUsAulEe-ROfQcWf1B_Q" contract="_coOUsAulEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_coOUsAulEe-ROfQcWf1B_Q" name="AutheticationInterface"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qYcG0AumEe-ROfQcWf1B_Q" name="AccountDataInterface"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_zoTIoAumEe-ROfQcWf1B_Q" name="AccountDatabase">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_4JpM4AumEe-ROfQcWf1B_Q" client="_zoTIoAumEe-ROfQcWf1B_Q" supplier="_qYcG0AumEe-ROfQcWf1B_Q" contract="_qYcG0AumEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_I5E-oAunEe-ROfQcWf1B_Q" name="AccountManager">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_KbJOUAunEe-ROfQcWf1B_Q" client="_I5E-oAunEe-ROfQcWf1B_Q" supplier="_Y2xOkAugEe-ROfQcWf1B_Q" contract="_Y2xOkAugEe-ROfQcWf1B_Q"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

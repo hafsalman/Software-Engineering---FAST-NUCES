@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ECB="http:///schemas/ECB/_z2Ix0OgvEe6HL4uVtuL1Gw/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ECB/_z2Ix0OgvEe6HL4uVtuL1Gw/2 ECB.profile.uml#_z2JY4OgvEe6HL4uVtuL1Gw">
+  <uml:Model xmi:id="_4QFKYOgrEe6HL4uVtuL1Gw" name="22K-5161 (Lab_5)">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_4WvzEOgrEe6HL4uVtuL1Gw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PzyFQOgsEe6HL4uVtuL1Gw" name="Task_01">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Sw3hcOgsEe6HL4uVtuL1Gw" name="System">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_PnpJ4OgwEe6HL4uVtuL1Gw" name="RetrivesDeliveryAddresses"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_brodAOgsEe6HL4uVtuL1Gw" name="ShoppingCartPage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TjOWAOgtEe6HL4uVtuL1Gw" name="DisplayPage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xxsN0OgvEe6HL4uVtuL1Gw" name="User"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1zB8UOgvEe6HL4uVtuL1Gw" name="CustomerAddressList"/>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_adsqQOgsEe6HL4uVtuL1Gw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_advGgOgsEe6HL4uVtuL1Gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="ECB.profile.uml#_z2JY4OgvEe6HL4uVtuL1Gw"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="ECB.profile.uml#_adGNUOgsEe6HL4uVtuL1Gw"/>
+      </profileApplication>
+    </packagedElement>
+  </uml:Model>
+  <ECB:Control xmi:id="_ad0mEOgsEe6HL4uVtuL1Gw" base_Class="_Sw3hcOgsEe6HL4uVtuL1Gw"/>
+  <ECB:Boundary xmi:id="_e1KZwOgsEe6HL4uVtuL1Gw" base_Class="_brodAOgsEe6HL4uVtuL1Gw"/>
+  <ECB:Boundary xmi:id="_XWWCUOgtEe6HL4uVtuL1Gw" base_Class="_TjOWAOgtEe6HL4uVtuL1Gw"/>
+  <ECB:Entity xmi:id="_z2ORYOgvEe6HL4uVtuL1Gw" base_Class="_xxsN0OgvEe6HL4uVtuL1Gw"/>
+  <ECB:Entity xmi:id="_7JPzEOgvEe6HL4uVtuL1Gw" base_Class="_1zB8UOgvEe6HL4uVtuL1Gw"/>
+</xmi:XMI>

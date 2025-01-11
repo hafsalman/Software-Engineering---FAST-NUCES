@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0nnFMASCEe-fdI0kF7AQ2Q" name="Lab_09">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0qsOYASCEe-fdI0kF7AQ2Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Z2f9sASDEe-fdI0kF7AQ2Q" name="Task_01">
+    <region xmi:type="uml:Region" xmi:id="_ayTeoASDEe-fdI0kF7AQ2Q" name="Task_01">
+      <transition xmi:type="uml:Transition" xmi:id="_AAv48ASJEe-fdI0kF7AQ2Q" name="Placing order" source="_YoHswASIEe-fdI0kF7AQ2Q" target="_a5c2MASIEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0-qSQASNEe-fdI0kF7AQ2Q" name="Items are available" guard="_ZxhLsASyEe-fdI0kF7AQ2Q" source="_a5c2MASIEe-fdI0kF7AQ2Q" target="_kYslkASNEe-fdI0kF7AQ2Q">
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_vV2hwASwEe-fdI0kF7AQ2Q" name="1 Hour"/>
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_6ufN8ASwEe-fdI0kF7AQ2Q" name="After 1 hour"/>
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_ZxhLsASyEe-fdI0kF7AQ2Q" name="After 1 hour"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_3Hb8oASNEe-fdI0kF7AQ2Q" name="Items are not available" guard="_latcYASyEe-fdI0kF7AQ2Q" source="_a5c2MASIEe-fdI0kF7AQ2Q" target="_vjQZgASNEe-fdI0kF7AQ2Q">
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_latcYASyEe-fdI0kF7AQ2Q" name="After 1 hour"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_4NSxcASNEe-fdI0kF7AQ2Q" name="Items still not available" guard="_VlpLsASzEe-fdI0kF7AQ2Q" source="_vjQZgASNEe-fdI0kF7AQ2Q" target="_xE3WMASNEe-fdI0kF7AQ2Q">
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_VlpLsASzEe-fdI0kF7AQ2Q" name="After 2 hours"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_9MwVEASNEe-fdI0kF7AQ2Q" source="_kYslkASNEe-fdI0kF7AQ2Q" target="_79DAsASNEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="__VMBMASNEe-fdI0kF7AQ2Q" source="_xE3WMASNEe-fdI0kF7AQ2Q" target="_79DAsASNEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s5EEUASyEe-fdI0kF7AQ2Q" name="Items are available" source="_vjQZgASNEe-fdI0kF7AQ2Q" target="_kYslkASNEe-fdI0kF7AQ2Q"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_YoHswASIEe-fdI0kF7AQ2Q" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_a5c2MASIEe-fdI0kF7AQ2Q" name="Unprocessed"/>
+      <subvertex xmi:type="uml:State" xmi:id="_kYslkASNEe-fdI0kF7AQ2Q" name="Delivery"/>
+      <subvertex xmi:type="uml:State" xmi:id="_vjQZgASNEe-fdI0kF7AQ2Q" name="Wait"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xE3WMASNEe-fdI0kF7AQ2Q" name="Cancel"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_79DAsASNEe-fdI0kF7AQ2Q" name=""/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_VSu2kASOEe-fdI0kF7AQ2Q" name="Task_02">
+    <region xmi:type="uml:Region" xmi:id="_WU9voASOEe-fdI0kF7AQ2Q" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_GbIB8AS2Ee-fdI0kF7AQ2Q" name="User is working" source="_0f810AS1Ee-fdI0kF7AQ2Q" target="_1qjnwAS1Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_K_K_cAS3Ee-fdI0kF7AQ2Q" name="Inactivity" guard="_mI6M4AS3Ee-fdI0kF7AQ2Q" source="_1qjnwAS1Ee-fdI0kF7AQ2Q" target="_FIYyQAS3Ee-fdI0kF7AQ2Q">
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_mI6M4AS3Ee-fdI0kF7AQ2Q" name="5 minutes"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_zhjpAAS3Ee-fdI0kF7AQ2Q" name="User touches keyboard or mouse" source="_FIYyQAS3Ee-fdI0kF7AQ2Q" target="_1qjnwAS1Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_b1mpsAS6Ee-fdI0kF7AQ2Q" name="Inactivity" guard="_wRQOgAS6Ee-fdI0kF7AQ2Q" source="_FIYyQAS3Ee-fdI0kF7AQ2Q" target="_PXPrkAS6Ee-fdI0kF7AQ2Q">
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_tBqtEAS6Ee-fdI0kF7AQ2Q"/>
+        <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_wRQOgAS6Ee-fdI0kF7AQ2Q" name="10 more minutes"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_E4mQgAS8Ee-fdI0kF7AQ2Q" name="Presses Power Button" source="_PXPrkAS6Ee-fdI0kF7AQ2Q" target="_1qjnwAS1Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6i-EAAS8Ee-fdI0kF7AQ2Q" name="Battery level falls to 10%" source="_FIYyQAS3Ee-fdI0kF7AQ2Q" target="_4kHxsAS8Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JgjdoAS9Ee-fdI0kF7AQ2Q" name="Battery level falls to 10%" source="_1qjnwAS1Ee-fdI0kF7AQ2Q" target="_4kHxsAS8Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SbcVAAS9Ee-fdI0kF7AQ2Q" name="Battery level falls to 10%" source="_PXPrkAS6Ee-fdI0kF7AQ2Q" target="_4kHxsAS8Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bawZYAS9Ee-fdI0kF7AQ2Q" name="Power button pressed" source="_4kHxsAS8Ee-fdI0kF7AQ2Q" target="_1qjnwAS1Ee-fdI0kF7AQ2Q"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_0f810AS1Ee-fdI0kF7AQ2Q" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_1qjnwAS1Ee-fdI0kF7AQ2Q" name="On"/>
+      <subvertex xmi:type="uml:State" xmi:id="_FIYyQAS3Ee-fdI0kF7AQ2Q" name="Off"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PXPrkAS6Ee-fdI0kF7AQ2Q" name="SleepMode"/>
+      <subvertex xmi:type="uml:State" xmi:id="_4kHxsAS8Ee-fdI0kF7AQ2Q" name="ShutDown"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_OSiJcAS-Ee-fdI0kF7AQ2Q" name="Task_03">
+    <region xmi:type="uml:Region" xmi:id="_O0SysAS-Ee-fdI0kF7AQ2Q" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_vS9A8AS_Ee-fdI0kF7AQ2Q" name="Initial" source="_eL1vAAS_Ee-fdI0kF7AQ2Q" target="_gxzrsAS_Ee-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_PJZOEATAEe-fdI0kF7AQ2Q" name="Places order" source="_gxzrsAS_Ee-fdI0kF7AQ2Q" target="_CjYv0ATAEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pnSpMATAEe-fdI0kF7AQ2Q" name="Doesn't pay invoice" source="_CjYv0ATAEe-fdI0kF7AQ2Q" target="_n38ygATAEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RqomUATBEe-fdI0kF7AQ2Q" name="Overdue" source="_n38ygATAEe-fdI0kF7AQ2Q" target="_PVR4gATBEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_NmyEcATDEe-fdI0kF7AQ2Q" name="Pays after warning" source="_PVR4gATBEe-fdI0kF7AQ2Q" target="_K5taMATDEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_gCnGkATDEe-fdI0kF7AQ2Q" name="Good transaction record for 6 months" source="_K5taMATDEe-fdI0kF7AQ2Q" target="_aKgqwATDEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xaqiEATEEe-fdI0kF7AQ2Q" name="PaysOnTimeAndOrdered>10000" source="_CjYv0ATAEe-fdI0kF7AQ2Q" target="_nUgm4ATDEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SUdpoATFEe-fdI0kF7AQ2Q" name="Late on 2 or more payments" source="_nUgm4ATDEe-fdI0kF7AQ2Q" target="_CjYv0ATAEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9MopYATGEe-fdI0kF7AQ2Q" name="ManagementhaveIssues" source="_CjYv0ATAEe-fdI0kF7AQ2Q" target="_nUgm4ATDEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_K-QmMATHEe-fdI0kF7AQ2Q" name="Dies or no transaction for 5 years" source="_gxzrsAS_Ee-fdI0kF7AQ2Q" target="_HLXjYATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_QGcA8ATHEe-fdI0kF7AQ2Q" name="Dies or no transaction for 5 years" source="_aKgqwATDEe-fdI0kF7AQ2Q" target="_HLXjYATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TzruwATHEe-fdI0kF7AQ2Q" name="Dies or no transaction for 5 years" source="_K5taMATDEe-fdI0kF7AQ2Q" target="_HLXjYATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YRD5AATHEe-fdI0kF7AQ2Q" name="Dies or no transaction for 5 years" source="_PVR4gATBEe-fdI0kF7AQ2Q" target="_HLXjYATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cO3LUATHEe-fdI0kF7AQ2Q" name="Dies or no transaction for 5 years" source="_nUgm4ATDEe-fdI0kF7AQ2Q" target="_HLXjYATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hMOdMATHEe-fdI0kF7AQ2Q" source="_aKgqwATDEe-fdI0kF7AQ2Q" target="_gT3R0ATHEe-fdI0kF7AQ2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s1JoIATHEe-fdI0kF7AQ2Q" source="_HLXjYATHEe-fdI0kF7AQ2Q" target="_gT3R0ATHEe-fdI0kF7AQ2Q"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eL1vAAS_Ee-fdI0kF7AQ2Q"/>
+      <subvertex xmi:type="uml:State" xmi:id="_gxzrsAS_Ee-fdI0kF7AQ2Q" name="Prospective"/>
+      <subvertex xmi:type="uml:State" xmi:id="_CjYv0ATAEe-fdI0kF7AQ2Q" name="Active"/>
+      <subvertex xmi:type="uml:State" xmi:id="_n38ygATAEe-fdI0kF7AQ2Q" name="OnNotice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PVR4gATBEe-fdI0kF7AQ2Q" name="Warning"/>
+      <subvertex xmi:type="uml:State" xmi:id="_K5taMATDEe-fdI0kF7AQ2Q" name="Risky"/>
+      <subvertex xmi:type="uml:State" xmi:id="_aKgqwATDEe-fdI0kF7AQ2Q" name="Regular"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nUgm4ATDEe-fdI0kF7AQ2Q" name="Preferred"/>
+      <subvertex xmi:type="uml:State" xmi:id="_HLXjYATHEe-fdI0kF7AQ2Q" name="Archived"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_gT3R0ATHEe-fdI0kF7AQ2Q" name=""/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IGHHoAS3Ee-fdI0kF7AQ2Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IGMAIAS3Ee-fdI0kF7AQ2Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

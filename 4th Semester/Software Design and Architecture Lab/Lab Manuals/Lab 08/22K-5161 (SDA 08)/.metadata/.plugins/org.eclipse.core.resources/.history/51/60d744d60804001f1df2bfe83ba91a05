@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uC3bkAMeEe--KsFu1WlhzQ" name="Lab_08">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_uI_4wAMeEe--KsFu1WlhzQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_ww2EwAMeEe--KsFu1WlhzQ" name="Task_01">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_45Y5MAMeEe--KsFu1WlhzQ" name=":User"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_7UVRoAMeEe--KsFu1WlhzQ" name=":Librarian"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_9p0iUAMeEe--KsFu1WlhzQ" name=":System"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XB0WAAsaEe-6Aa6Hynm4gw" name="SDA_11">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_XHAYAAsaEe-6Aa6Hynm4gw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_K5o74AsdEe-6Aa6Hynm4gw" name="Task_01">
+    <packagedElement xmi:type="uml:Device" xmi:id="_vvqBYAsdEe-6Aa6Hynm4gw" name=":Mobile"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_xIKFYAsdEe-6Aa6Hynm4gw" name=":HomeComputer"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_dRHsEAt2Ee-A4ZBLJpFsWg" name=":ITunesWebsite"/>
+    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_itAtAAt2Ee-A4ZBLJpFsWg" name=":ITunesAppleStore"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_j3JIYAt3Ee-A4ZBLJpFsWg" name=":MediaLibrary"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_rmQ6wAt4Ee-A4ZBLJpFsWg" name=":WebBrowser"/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_wumtkAt4Ee-A4ZBLJpFsWg" memberEnd="_wuoiwAt4Ee-A4ZBLJpFsWg _wupJ0At4Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wun7sAt4Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wun7sQt4Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wuoiwAt4Ee-A4ZBLJpFsWg" name=":webbrowser" type="_rmQ6wAt4Ee-A4ZBLJpFsWg" association="_wumtkAt4Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wupJ0At4Ee-A4ZBLJpFsWg" name=":ituneswebsite" type="_dRHsEAt2Ee-A4ZBLJpFsWg" association="_wumtkAt4Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_ybwy8At4Ee-A4ZBLJpFsWg" memberEnd="_ybxaAQt4Ee-A4ZBLJpFsWg _ybxaAgt4Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ybwy8Qt4Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ybxaAAt4Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ybxaAQt4Ee-A4ZBLJpFsWg" name=":medialibrary" type="_j3JIYAt3Ee-A4ZBLJpFsWg" association="_ybwy8At4Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ybxaAgt4Ee-A4ZBLJpFsWg" name=":itunesapplestore" type="_itAtAAt2Ee-A4ZBLJpFsWg" association="_ybwy8At4Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Ak7GAAt5Ee-A4ZBLJpFsWg" memberEnd="_Ak7GAwt5Ee-A4ZBLJpFsWg _Ak7tEAt5Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ak7GAQt5Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ak7GAgt5Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ak7GAwt5Ee-A4ZBLJpFsWg" name=":webbrowser" type="_rmQ6wAt4Ee-A4ZBLJpFsWg" association="_Ak7GAAt5Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ak7tEAt5Ee-A4ZBLJpFsWg" name=":homecomputer" type="_xIKFYAsdEe-6Aa6Hynm4gw" association="_Ak7GAAt5Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_DUo0kAt5Ee-A4ZBLJpFsWg" memberEnd="_DUpbogt5Ee-A4ZBLJpFsWg _DUqCsAt5Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DUpboAt5Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DUpboQt5Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DUpbogt5Ee-A4ZBLJpFsWg" name=":mobile" type="_vvqBYAsdEe-6Aa6Hynm4gw" association="_DUo0kAt5Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DUqCsAt5Ee-A4ZBLJpFsWg" name=":medialibrary" type="_j3JIYAt3Ee-A4ZBLJpFsWg" association="_DUo0kAt5Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_E8gKQAt5Ee-A4ZBLJpFsWg" name="USB" memberEnd="_E8gKQwt5Ee-A4ZBLJpFsWg _E8gxUAt5Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E8gKQQt5Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E8gKQgt5Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_E8gKQwt5Ee-A4ZBLJpFsWg" name=":homecomputer" type="_xIKFYAsdEe-6Aa6Hynm4gw" association="_E8gKQAt5Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_E8gxUAt5Ee-A4ZBLJpFsWg" name=":mobile" type="_vvqBYAsdEe-6Aa6Hynm4gw" association="_E8gKQAt5Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_IPXCIAt5Ee-A4ZBLJpFsWg" memberEnd="_IPXpMAt5Ee-A4ZBLJpFsWg _IPXpMQt5Ee-A4ZBLJpFsWg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IPXCIQt5Ee-A4ZBLJpFsWg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPXCIgt5Ee-A4ZBLJpFsWg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IPXpMAt5Ee-A4ZBLJpFsWg" name=":medialibrary" type="_j3JIYAt3Ee-A4ZBLJpFsWg" association="_IPXCIAt5Ee-A4ZBLJpFsWg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IPXpMQt5Ee-A4ZBLJpFsWg" name=":homecomputer" type="_xIKFYAsdEe-6Aa6Hynm4gw" association="_IPXCIAt5Ee-A4ZBLJpFsWg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uwDpUMwWEe6MeZeXjTMmqA" name="22K-5161 (Lab_02)">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_u5WIMMwWEe6MeZeXjTMmqA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_EAp5IMwXEe6MeZeXjTMmqA" name="Question_04">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q_kxMMwYEe6MeZeXjTMmqA" name="Transport services"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_T4WVIMwYEe6MeZeXjTMmqA" name="Carry air craft">
+      <generalization xmi:type="uml:Generalization" xmi:id="_YjB7kMwYEe6MeZeXjTMmqA" general="_Q_kxMMwYEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vu18sMwYEe6MeZeXjTMmqA" name="Hire air craft">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Z62qIMwYEe6MeZeXjTMmqA" general="_Q_kxMMwYEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o9fi4MwYEe6MeZeXjTMmqA" name="Control Operation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EvPykMwZEe6MeZeXjTMmqA" name="Add"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TGJmsMwZEe6MeZeXjTMmqA" name="Aircraft">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XxW8IMwaEe6MeZeXjTMmqA" general="_EvPykMwZEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XALMQMwZEe6MeZeXjTMmqA" name="Flight">
+      <generalization xmi:type="uml:Generalization" xmi:id="_WjBgwMwaEe6MeZeXjTMmqA" general="_EvPykMwZEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aQhisMwZEe6MeZeXjTMmqA" name="Flight Schedule">
+      <generalization xmi:type="uml:Generalization" xmi:id="_VM-64MwaEe6MeZeXjTMmqA" general="_EvPykMwZEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H3hVoMwaEe6MeZeXjTMmqA" name="Cancel pre-scheduled flights"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sAK-0MwaEe6MeZeXjTMmqA" name="Search source/destination"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_u5UWMMwaEe6MeZeXjTMmqA" name="Search date"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oAjSIMwbEe6MeZeXjTMmqA" name="Reserve ticket"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rNfvQMwbEe6MeZeXjTMmqA" name="Build multi-itinerary flight"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wn9M0MwbEe6MeZeXjTMmqA" name="Check"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_x7KhIMwbEe6MeZeXjTMmqA" name="Flight schedule">
+      <generalization xmi:type="uml:Generalization" xmi:id="_RzK0gMwcEe6MeZeXjTMmqA" general="_wn9M0MwbEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zhQ8QMwbEe6MeZeXjTMmqA" name="Departure time">
+      <generalization xmi:type="uml:Generalization" xmi:id="_S06lYMwcEe6MeZeXjTMmqA" general="_wn9M0MwbEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2cQtwMwbEe6MeZeXjTMmqA" name="Available seats">
+      <generalization xmi:type="uml:Generalization" xmi:id="_W5CiIMwcEe6MeZeXjTMmqA" general="_wn9M0MwbEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4FhxoMwbEe6MeZeXjTMmqA" name="Arrival time">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XsZRsMwcEe6MeZeXjTMmqA" general="_wn9M0MwbEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5xlDwMwbEe6MeZeXjTMmqA" name="Other details">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qIZS8MwcEe6MeZeXjTMmqA" general="_wn9M0MwbEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uw8LYMwcEe6MeZeXjTMmqA" name="Reservstion for multiple passenger"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yLF-EMwcEe6MeZeXjTMmqA" name="Cancel pre-scheduled flight"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Fp9xkMwdEe6MeZeXjTMmqA" name="Get notification"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bxykUMwdEe6MeZeXjTMmqA" name="Cancel"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dVnHgMwdEe6MeZeXjTMmqA" name="Reservation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_i0vpsMwdEe6MeZeXjTMmqA" general="_bxykUMwdEe6MeZeXjTMmqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e8atQMwdEe6MeZeXjTMmqA" name="Itinerary">
+      <generalization xmi:type="uml:Generalization" xmi:id="_pmMvYMwdEe6MeZeXjTMmqA" general="_bxykUMwdEe6MeZeXjTMmqA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Ew3OEMwXEe6MeZeXjTMmqA" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Mn-e0MwYEe6MeZeXjTMmqA" name="Airline"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0zSFIMwYEe6MeZeXjTMmqA" name="Management System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2fiLkMwYEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="__8fOMMwYEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Ch38EMwZEe6MeZeXjTMmqA" name="Admin"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c9XuAMwaEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nw9MYMwaEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sYAvsMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ttulcMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vv-KAMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xn6jEMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zqEoEMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2RXacMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4BU8MMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5CyZMMwdEe6MeZeXjTMmqA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5-gakMwdEe6MeZeXjTMmqA"/>
+</uml:Model>
