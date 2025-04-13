@@ -1,0 +1,14 @@
+//CN Lab 02 (Class Activities)
+
+//Hafsa Salman
+//22K-5161
+//BSE-6B
+
+//Class Activity 01
+Sending message from PC0 to PC3
+1. Connected all the devices.
+2. Sent message from PC0 to PC3.
+3. The message was first sent from PC0 to Hub.
+4. Hub is not intelligent so it can not read the destination address. That is why the message is sent from Hub to PC1 and switch.
+5. Since the message was not for PC1, so it denied it.
+6. Upon receiving the messages from the hub, switch reads the destination address and sends it to the PC3. 
