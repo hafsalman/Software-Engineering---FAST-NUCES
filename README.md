@@ -40,6 +40,15 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Software%20Quality%20Engineering">Software Quality Engineering</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/5th%20Semester/Technical%20Business%20Writing/Slides">Technical Business Writing</a></p>
 
+<h3>6. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester">6th Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Applied%20Artificial%20Intelligence">Applied Artificial Intelligence</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Business%20Process%20Engineering">Business Process Engineering</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Computer%20Networks%20Lab">Computer Networks Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Computer%20Networks">Computer Networks</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Simulation%20and%20Modelling">Simulation and Modelling</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Web%20Engineering%20Lab">Web Engineering Lab</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Web%20Engineering">Web Engineering</a></p>
+
 <h2>Accepting Contributions</h2>
 <p>If you would like to contribute to this repository by adding course materials, please follow these steps:</p>
 <p>i. Fork this repository to your account.</p>
