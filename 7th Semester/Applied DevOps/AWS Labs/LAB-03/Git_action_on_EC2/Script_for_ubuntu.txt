@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt update
+sudo apt install -y bzip2 docker.io
+sudo systemctl enable docker
+sudo systemctl start docker

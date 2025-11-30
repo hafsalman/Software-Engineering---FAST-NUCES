@@ -1,0 +1,31 @@
+name: Build and Deploy FastAPI App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t fastapi-app .
+
+      - name: Decode SSH key and save
+        run: |
+          echo "${{ secrets.EC2_SSH_KEY_B64 }}" | base64 -d > private_key.pem
+          chmod 600 private_key.pem
+
+      - name: Copy image to EC2 and run it
+        run: |
+          docker save fastapi-app | bzip2 | ssh -o StrictHostKeyChecking=no -i private_key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} 'bunzip2 | sudo docker load'
+          ssh -o StrictHostKeyChecking=no -i private_key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            sudo docker stop fastapi-app || true
+            sudo docker rm fastapi-app || true
+            sudo docker run -d --name fastapi-app -p 8080:80 fastapi-app
+          EOF
