@@ -49,6 +49,12 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Web%20Engineering%20Lab">Web Engineering Lab</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/6th%20Semester/Web%20Engineering">Web Engineering</a></p>
 
+<h3>7. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester">7th Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Applied%20DevOps">Applied DevOps</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Fundamentals%20of%20Software%20Project%20Management">Fundamentals of Software Project Management</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Information%20Security">Information Security</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Professional%20Practices%20in%20IT">Professional Practices in IT</a></p>
+
 <br><br>
 
 <h2>Accepting Contributions</h2>
