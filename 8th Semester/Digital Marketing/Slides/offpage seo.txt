@@ -1,0 +1,39 @@
+Off page SEO:
+
+All activities that occurs out of our website. Promotion on other websites and social media.
+
+Why its important:
+To build Trust and adding value to the content.
+buld website recognition and domain authority (website value).
+helps in increasing the website ranking
+
+Link Building:
+Backlinking - linking website A with website B.
+e.g external link ---> Backlink
+transfer of value from one web to another
+
+Types of Backlinks:
+Do Follow: website A allowing crawler to move from website A to Website B
+No Follow: website A doesnpt allow crawler to move from Web A to Web B. (Pinterest, Quora, medium) - More traffic
+High Quality Backlink: Linking with the website of same catergory.
+Tenchnology --> technology related website
+
+Rule for identifying websites for creating backlink
+1. The domain authroity of the other website should be greater than yours
+2. The DA should be more than 20
+3. Spam score should be less than 5%
+
+domain authority
+Rating of your website that how likely it is to rank on google. (moz.com)
+Page Authority - calculated for individual pages. technology page
+
+1. Search engine submission sites
+2. free classified submission sites (olx, locanto)
+3. PDF/PPT submission (slideshare, scribd)
+4. social bookmarking (reddit, diigo)
+5. Guest Blogging (medium) DAPA, Free Guest/Backlinking
+6. Video Submission (Youtube, dailymotion, rumble)
+7. Q&A Submission (Quora) 1 Question replys, upvoting, follow
+8. Article Submission (medium, tumblr)
+9. Social Signals (facebook, insta, linkedin, twitter)
+

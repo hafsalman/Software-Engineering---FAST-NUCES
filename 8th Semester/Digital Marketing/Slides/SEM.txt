@@ -1,0 +1,54 @@
+Search Engine Marketing (SEM)
+
+Paid advertising.
+
+Difference between SEO and SEM
+SEO = Free
+SEM = Paid
+SEO Time = Slow (3-6 months)
+SEM Time = Instant
+Placement SERP = SEM results on Top and SEO results bottom.
+
+Google ads is used for SEM. 
+In Past
+> Google Adsense (Publishers) website owners
+> Google Adwords (Advertisers)
+
+Publisher <---- Google ---- Advertiser
+
+SEM Working Mechanism. 
+> Auction System
+best shoes in karachi
+earbuds in karachi
+
+Advertiser A = Rs. 100
+Advertiser B = Rs. 80
+Advertiser C = Rs. 60
+
+Step 1: user search "gym perfumes in Pakistan"
+1. Ad relevancy
+2. Keyword Match
+3. Quality > landing page
+
+Ad Rank Calculation
+1. Bid
+2. Quality Score (ad relevancy, expected CTR, landing page experience)
+
+Important concepts of SEM.
+1. Keywords.
+2. CPC/PPC. Cost Per Click 
+3. Ad Ranking. Ad Rank = Bid + Quality Score
+
+Structure of Google Ads Campaign.
+1. Campaign (objectives - web traffic, sales, lead generation, awareness)
+2. Ad Group (keywords research, audience)
+3. Ads Copy (Text that appears on the search result) - use attractive headlines, use targeted keywords, Offer, Call to action
+
+Buy Gym Perfume - Long Lasting Fragrance| limited stock | order now
+
+Types of google ads
+1. Search Ads.
+2. Display Ads. (websites)
+3. Video Ads. (youtube)
+4. Shopping Ads. (Google Merchant)
+
