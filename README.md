@@ -55,6 +55,12 @@
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Information%20Security">Information Security</a></p>
 <p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/7th%20Semester/Professional%20Practices%20in%20IT">Professional Practices in IT</a></p>
 
+<h3>8. <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/8th%20Semester">8th Semester</a></h3>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/8th%20Semester/Data%20Science%20for%20Software%20Engineering">Data Science for Software Engineering</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/8th%20Semester/Digital%20Marketing">Digital Marketing</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/8th%20Semester/Programming%20for%20Mobile%20Devices">Programming for Mobile Devices</a></p>
+<p>- <a href="https://github.com/hafsalman/Software-Engineering---FAST-NUCES/tree/main/8th%20Semester/Software%20Re-Engineering">Software Re-engineering</a></p>
+
 <br><br>
 
 <h2>Accepting Contributions</h2>
